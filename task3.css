@@ -1,0 +1,130 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body{
+    background: #fff0f0;
+}
+
+nav .nav_links{
+    float: right;
+    margin-top: 20px;
+}
+nav .nav_links li{
+    float: right;
+    list-style: none;
+    margin: 0 20px;
+    margin-bottom:20px ;
+}
+nav .nav_links li a{
+    text-decoration: none;
+    color: #3d0a0a;
+    font-size: 18px;
+    font-weight: 600;
+}
+nav .nav_links li a:hover{
+    color: #d76b6b;
+}
+nav{
+    overflow: auto;
+    padding: 0 20px;
+}
+.logo{
+    float: left; 
+    color: #3d0a0a;
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.home{
+    background-image: url(../media/ground1.jpg);
+    background-size: cover;
+    background-position: center;
+     height: 100vh;
+    width: 100%;  
+    text-align: center;
+    padding-top: 50px;
+    clear: both;
+}
+
+
+h1{
+    color: #3d0a0a;
+    font-size: 50px;
+    font-weight: 700;
+    text-align: center; 
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.5);
+    margin-top: 150px;
+    
+}
+.btn{
+    padding: 15px 30px;
+    background: #450404;
+    border: none;
+    cursor: pointer;
+    font-size: 18px;
+    font-weight: 600;
+    border-radius: 30px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.3);
+    margin-top: 50px;
+  
+}
+.btn:hover{
+    background: #d76b6b;
+    color: #fff;
+}
+.favourits h2{
+   color: #3d0a0a;
+    font-size: 50px;
+    font-weight: 700;
+    text-align: center; 
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.5);
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.img_box{
+    width: 32%;
+    float: left;
+    padding: 15px;
+    text-align: center;
+    border-radius: 15px;
+    margin: 0.5%;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+    border: #3d0a0a solid 2px;
+    box-sizing: border-box;
+      
+}
+
+.img_box img:hover{
+    border-radius: 50%;
+    
+}
+.img_box:hover
+{
+    background: #f9d3d3;
+   
+}
+.img_container{
+    padding-bottom: 50px;
+    text-align: center;
+    overflow: auto;
+    width: 100%;
+}
+
+img{
+    width: 100%;
+    height: 300px;
+    border-radius: 10px;
+    border-color: inherit;
+    border: 2px solid;
+    object-fit: cover;
+}
+
+.clear {
+    clear: both;
+}
+
